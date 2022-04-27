@@ -45,4 +45,4 @@ Of couse you will need to remove the original RF modulator, there are 2 or 4 tab
 Now time to install the replacement. For this I would recommend soldering just the signal connections (2 groups of 4 pins) to begin with. You want to confirm the board is working and aligned properly before soldering the outer ground posts. 
 
 # Finishing up
-Once you are satisfied that everything is working correctly, do a test fit with the C64 case to confirm the s-video and 3.5mm audio/reset button are at the correct height. If everything looks good then go ahead and solder the remining posts to the C64 and connect the optional EXROM and RESET for the HARD RESET circuit, and/or the RIGHT audio input if you plan to use these features.
+Once you are satisfied that everything is working correctly, do a test fit with the C64 case to confirm the s-video and 3.5mm audio/reset button are at the correct height and as close to the back of the C64 case as possible. If everything looks good then go ahead and solder the remining posts to the C64 and connect the optional EXROM and RESET for the HARD RESET circuit, and/or the RIGHT audio input if you plan to use these features.
