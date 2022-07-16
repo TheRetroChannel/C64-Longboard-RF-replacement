@@ -1,4 +1,7 @@
 # C64-Longboard-RF-replacement
+
+![Board](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/Images/C64LB%20RF%20FULL.png)
+![Schematic](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/Images/Schematic_C64%20LONGBOARD%20RF%20MOD%20REPLACEMENT.png)
 This is a RF modulator replacement for the longboard Commodore 64 variants - these include ASSY# KU-14194HB, 250407, 250425 and 250466 - for ASSY #250469 and Commodore 128 variants see [C128/C64 shortboard RF replacement](https://github.com/TheRetroChannel/C128-C64-Shortboard-RF-replacement). Note ASSY #326298 is not compatible with either of these RF modulator replacements.
 
 I have included as much detail as possible on this page but comparison shots are available [HERE](NEED NEW LINK), and a YouTube build and installtion video is available [HERE](INSERT LINK)
@@ -22,6 +25,9 @@ Although everything in the rear half of the board (AV connectors, hard reset cir
 
 Before ordering components it is important to discuss the optional features and determine which ones you wish to utilise.
 * OPT1 Adjustable luma and chroma output: The PCB has space for the installation of either 2x 180Ω fixed value resistors (R5 and R7) or 2x 500Ω variable resistors (RV1 and RV2). The recommended option is to install fixed value resistors (the values in the BoM showed the correct output levels during testing) but if you wish you may install trimpots here and adjust the output levels yourself (an oscilloscope is recommended for this). 
+
+![pots vs fixed values](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/Images/pots%20vs%20fixed.png)
+
 * OPT2 Hard reset circuit and optional reset button: The PCB includes a hard reset circuit (the function of which is explained in the link above). Connections must be made to the EXROM (PLA pin 23) and RESET lines (CPU pin 40). This can be utilised in two ways: 
 1. Install a push button switch directly on the RF modulator PCB - this occupies the same space as the 3.5mm audio output, so you can only have one or the other (mono audio output will still be available from the C64 mainboard AV DIN connector)
 2. Install or utilise an existing reset button (many C64s have been user retrofitted with a case mounted "soft" reset button). The RF modulator PCB has space for two pins headers (EXTRESET) to be installed and wired to an existing case mounted reset button - just make sure you disconnect the old wiring if you already have a reset button installed!
