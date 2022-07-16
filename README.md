@@ -106,7 +106,6 @@ A: It's free, and that's exactly how I wanted it to be. Although it may look sim
 
 # To-do
 Just a reminder to myself to do the following:
-* Finish off the 128/64 shortboard page and insert link
 * Film video and insert link here
 * Grab some new comparison shots of stock RF vs this one
 * Take an actual pic of the LC bypass
