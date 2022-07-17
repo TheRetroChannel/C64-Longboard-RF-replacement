@@ -20,6 +20,10 @@ The RF modulator replacement not only provides a better than stock video output 
 
 "*" The 3.5mm audio output and hard reset button share the same space on the PCB (where the channel selector switch would normally be), as such only one can be installed on the board. Installing the 3.5mm audio out is recommended, the hard reset circuit can still be utilised with a case mounted tactile switch. See Optional Stuff
 
+# Comparison shots
+
+All before and after images are in [this folder](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/tree/main/Images/comparisons). The easiest way to compare them is to open each one in a new tab, or download each one and open in an image viewer, and just flick between each open image. Note the EasyFlash3 main menu was chosen as it includes a lot of detail. Pay close attention to the different coloured dots around the selection boxes, the text especially with "ll"'s and "m"'s, the blue and purple background, and the "developed by skoe" text. All shots were with a very cheap capture device (it literally just says "video converter" on the device), my plasma tv shows a remarkably clean image but it proved too diffcult to get a good photo of that display :-/
+
 # Optional stuff
 Although everything in the rear half of the board (AV connectors, hard reset circuit, pin headers) can be left unpopulated, it is recommended to install all components now so all features are available should you wish to use them in the future. The pads and through-holes for the RF modulator are easily damaged with multiple removals and reinstallations of RF modulator replacements. Ask me how I know!
 
@@ -111,4 +115,3 @@ A: It's free, and that's exactly how I wanted it to be. Although it may look sim
 # To-do
 Just a reminder to myself to do the following:
 * Film video and insert link here
-* Grab some new comparison shots of stock RF vs this one
