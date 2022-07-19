@@ -4,7 +4,7 @@
 
 This is a RF modulator replacement for the longboard Commodore 64 variants - these include ASSY# KU-14194HB, 250407, 250425 and 250466 - for ASSY #250469 and Commodore 128 variants see [C128/C64 shortboard RF replacement](https://github.com/TheRetroChannel/C128-C64-Shortboard-RF-replacement). Note ASSY #326298 is not compatible with either of these RF modulator replacements.
 
-I have included as much detail as possible on this page but comparison shots are available [HERE](NEED NEW LINK), and a YouTube build and installtion video is available [HERE](INSERT LINK)
+A YouTube build and installation video is available [HERE](INSERT LINK)
 
 # Feature summary
 The RF modulator replacement not only provides a better than stock video output but also includes a slew of extra features:
