@@ -22,7 +22,9 @@ The RF modulator replacement not only provides a better than stock video output 
 
 # Comparison shots
 
-All before and after images are in [this folder](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/tree/main/Images/comparisons). The easiest way to compare them is to open each one in a new tab, or download each one and open in an image viewer, and just flick between each open image. Note the EasyFlash3 main menu was chosen as it includes a lot of detail. Pay close attention to the different coloured dots around the selection boxes, the text especially with "ll"'s and "m"'s, the blue and purple background, and the "developed by skoe" text. All shots were with a very cheap capture device (it literally just says "video converter" on the device), my plasma tv shows a remarkably clean image but it proved too diffcult to get a good photo of that display :-/
+![64 comparison](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/Images/64%20comparison%20shots.png)
+These were taken from a C64 250407 board with a 6569 rev 1 VIC-II (5 luminance levels), later VIC-IIs will look different due to having 8 luma levels.
+Note the EasyFlash3 main menu was chosen as it includes a lot of detail. Pay close attention to the different coloured dots around the selection boxes, the text especially with "ll"'s and "m"'s, the grey background, and the "developed by skoe" text. All shots were with a very cheap capture device (it literally just says "video converter" on the device), my plasma tv shows a remarkably clean image but it proved too diffcult to get a good photo of that display :-/
 
 # Optional stuff
 Although everything in the rear half of the board (AV connectors, hard reset circuit, pin headers) can be left unpopulated, it is recommended to install all components now so all features are available should you wish to use them in the future. The pads and through-holes for the RF modulator are easily damaged with multiple removals and reinstallations of RF modulator replacements. Ask me how I know!
@@ -59,7 +61,9 @@ Before ordering components it is important to discuss the optional features and 
 ![stereo](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/Images/extaudio.png)
  
 # Gathering components
-Use the [gerber files](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/tree/main/Gerbers) and upload them to your preferred PCB manufacturer. You should be safe to leave all options as the default ie. 2 layer FR-4, 1.6mm board thickness, HASL with lead, etc. Use the JLC version if ordering through JLCPCB and select "Specify a location" to have them print their order number under the S-Video connector. All other manufacters will likely slap their order number somewhere random on the board unless you pay extra to have them remove it.
+The easiest way to order PCBs is through the shared project page on PCBWAY. Simply click [this link](https://www.pcbway.com/project/shareproject/Commodore_64_Longboard_RF_Modulator_Replacement_e4743145.html) and add to your cart. You should be safe to leave all options as the default ie. 2 layer FR-4, 1.6mm board thickness, HASL with lead, etc.
+
+Alternatively you can download the [gerber files](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/Gerber_PCB_C64%20LONGBOARD%20RF%20MOD%20REPLACEMENT.zip) and upload them to your preferred PCB manufacturer. 
 
 The [BoM](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/BOM_C64%20LONGBOARD%20RF%20MOD%20REPLACEMENT.csv) lists all components required to build one board and also includes friendly part names and example part links from AliExpress for ease of ordering. Most are generic components so you can use your preferred parts supplier but the S-Video and 3.5mm audio connector are a very specific type and may be difficult to find outside of AliExpress (I haven't looked elsewhere for these so if you find an exact match elsewhere please let me know). As most PCB manufacturers require a minimum order of 5 PCBs, it is recommended to multiply the quantites on the BoM by 5 - you can give excess ones away or sell them (AT A RESONABLE PRICE). 
 
@@ -77,7 +81,7 @@ Of couse you will need to remove the original RF modulator, there are 2 or 4 tab
 # Install
 Insert the RF replacement board into the mainbaord holes for the RF modulator - it should fit without forcing it. If it does not, check the pin headers on the RF replacement to make sure they are straight, and check the RF modulator holes on the C64 to make sure they are completely free from solder. 
 
-Do a test fit with the C64 case to confirm the s-video and 3.5mm audio/reset button are at the correct height and as close to the back of the C64 case as possible - I like to use a bit of blu-tac to hold the RF modulator in place once it's lined up correctly with the case holes, you may need to install the board at a slight angle. Carefully remove the mainboard without bumping the RF modulator out of alignment, then solder the outer mounting posts. At this point the RF modulator shouldn't move and you can remove the blu-tac. Do another test fit to make sure the ports still line up correctly with the case and if so, go ahead and solder the remaining signal posts (2 rows of 4 pins). Connect the optional EXROM and RESET for the HARD RESET circuit, and/or the RIGHT audio input if you plan to use these features.
+Do a test fit with the C64 case to confirm the s-video and 3.5mm audio/reset button are at the correct height and as close to the back of the C64 case as possible - I like to use a bit of blu-tac to hold the RF modulator in place once it's lined up correctly with the case holes - you may need to install the board at a slight angle. Then carefully remove the mainboard without bumping the RF modulator out of alignment, and solder the outer mounting posts. At this point the RF modulator shouldn't move and you can remove the blu-tac. Do another test fit to make sure the ports still line up correctly with the case and if so, go ahead and solder the remaining signal posts (2 rows of 4 pins). Connect the optional EXROM and RESET for the HARD RESET circuit, and/or the RIGHT audio input if you plan to use these features.
 
 # Pre-emptive FAQ
 Q: Are you going to be selling these?
@@ -102,15 +106,11 @@ A: Very unlikely. Although this is my first time doing PCB design, the project i
 
 Q: I've built and installed one of these, but the image still isn't perfect!
 
-A: First of all, that's not a question. Have you tried the optional stuff like disabling composite colour mixing, and the L/C bypass? The VIC-II is doing a lot more than just serving up a video signal, and it's inherently very noisy. The only real options for high quality video are [c0pperdragon's component video board](https://github.com/c0pperdragon/C64-Video-Enhancement), the (sadly) currently inactive [VIC-II Kawari project](http://accentual.com/vicii-kawari/), or emulation! All of which bypass or replace the noisy VIC-II video generation.
-
-Q: I think something is wrong, can you help?
-
-A: Check the [schematic](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/Images/Schematic_C64%20LONGBOARD%20RF%20MOD%20REPLACEMENT.png)
+A: First of all, that's not a question. Double check you have used the correct value components, and also check the [schematic](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/Images/sch%20longboard.png) to make sure everything is connected correctly. Have you tried the optional stuff like disabling composite colour mixing, and the L/C bypass? The VIC-II is doing a lot more than just serving up a video signal, and it's inherently very noisy. The only real options for high quality video are [c0pperdragon's component video board](https://github.com/c0pperdragon/C64-Video-Enhancement), the [VIC-II Kawari project](http://accentual.com/vicii-kawari/), or emulation! All of which bypass or replace the noisy VIC-II video generation.
 
 Q: Wow, this is fantastic! How can I ever repay you?
 
-A: It's free, and that's exactly how I wanted it to be. Although it may look simple, the amount of hours I've sunk into this project is ridiculous and that's just how it is with this stuff. I'll be more than happy to see this being shared around and hopefully put to use. If you really want to help me continue doing this kind of thing, consider signing up as a [Patron](https://www.patreon.com/theretrochannel), or you can buy me a [Ko-Fi](https://ko-fi.com/sawickipediatrc)
+A: It's free, and that's exactly how I wanted it to be. Although it may look simple, the amount of hours I've sunk into this project is ridiculous and that's just how it is with this stuff. I'll be more than happy to see this being shared around and hopefully put to use. PCBWAY does give me a small credit when people use the shared project page (linked above) but if you really want to help me continue doing this kind of thing, consider signing up as a [Patron](https://www.patreon.com/theretrochannel), or you can buy me a [Ko-Fi](https://ko-fi.com/sawickipediatrc)
 
 # To-do
 Just a reminder to myself to do the following:
