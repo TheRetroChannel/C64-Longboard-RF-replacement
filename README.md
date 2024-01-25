@@ -1,3 +1,5 @@
+## This repository is now archived - please see https://github.com/TheRetroChannel/Commdore-64-RF-replacement-Longboard-V2 for the latest version
+
 # C64-Longboard-RF-replacement
 
 ![Board](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/Images/C64LB%20RF%20FULL.png)
