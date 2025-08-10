@@ -1,6 +1,4 @@
-## This repository is now archived - please see https://github.com/TheRetroChannel/Commdore-64-RF-replacement-Longboard-V2 for the latest version
-
-# C64-Longboard-RF-replacement
+## This project has been superseded by the [RFOFF](https://www.tindie.com/products/36736/) and no further updates or support will be provided. You are welcome to build this RF replacement but I would highly recommend the RFOFF which provides a much better output.
 
 ![Board](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/Images/C64LB%20RF%20FULL.png)
 
