@@ -1,4 +1,4 @@
-## This project has been superseded by the [RFOFF](https://www.tindie.com/products/36736/) and no further updates or support will be provided. You are welcome to build this RF replacement but I would highly recommend the RFOFF which provides a much better output.
+## This project has been superseded by the [RFOFF](https://lectronz.com/products/rfoff-c64-c128) and no further updates or support will be provided. You are welcome to build this RF replacement but I would highly recommend the RFOFF which provides a much better output.
 
 ![Board](https://github.com/TheRetroChannel/C64-Longboard-RF-replacement/blob/main/Images/C64LB%20RF%20FULL.png)
 
@@ -98,7 +98,7 @@ A: It should take around 30-45 minutes depending on your soldering skills. Every
 
 Q: Any plans for a SMD version?
 
-A: Not at this point, for a compact SMD replacement I recommend [c0pperdragon's analog only board](https://github.com/c0pperdragon/C64-Video-Enhancement/tree/master/analog_only). In my testing of various RF replacements I found this one to have great S-Video performance but sub-par composite performance, so it's a neat little board but IMHO it's not good for composite video.
+A: [Yes](https://lectronz.com/products/rfoff-c64-c128)
 
 Q: Will there be updates to this project?
 
